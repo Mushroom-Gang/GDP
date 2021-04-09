@@ -1,0 +1,279 @@
+ffmpeg version N-95015-gba24b24aab Copyright (c) 2000-2019 the FFmpeg developers
+  built with gcc 9.2.1 (GCC) 20190918
+  configuration: --enable-gpl --enable-version3 --enable-sdl2 --enable-fontconfig --enable-gnutls --enable-iconv --enable-libass --enable-libdav1d --enable-libbluray --enable-libfreetype --enable-libmp3lame --enable-libopencore-amrnb --enable-libopencore-amrwb --enable-libopenjpeg --enable-libopus --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libtheora --enable-libtwolame --enable-libvpx --enable-libwavpack --enable-libwebp --enable-libx264 --enable-libx265 --enable-libxml2 --enable-libzimg --enable-lzma --enable-zlib --enable-gmp --enable-libvidstab --enable-libvorbis --enable-libvo-amrwbenc --enable-libmysofa --enable-libspeex --enable-libxvid --enable-libaom --enable-libmfx --enable-ffnvcodec --enable-cuvid --enable-d3d11va --enable-nvenc --enable-nvdec --enable-dxva2 --enable-avisynth --enable-libopenmpt --enable-amf
+  libavutil      56. 35.100 / 56. 35.100
+  libavcodec     58. 58.101 / 58. 58.101
+  libavformat    58. 33.100 / 58. 33.100
+  libavdevice    58.  9.100 / 58.  9.100
+  libavfilter     7. 58.102 /  7. 58.102
+  libswscale      5.  6.100 /  5.  6.100
+  libswresample   3.  6.100 /  3.  6.100
+  libpostproc    55.  6.100 / 55.  6.100
+Splitting the commandline.
+Reading option '-v' ... matched as option 'v' (set logging level) with argument 'debug'.
+Reading option '-nostdin' ... matched as option 'stdin' (enable or disable interaction on standard input) with argument 0.
+Reading option '-progress' ... matched as option 'progress' (write program-readable progress information) with argument 'C:/Users/Sarah/AppData/Local/Temp/KritaFFmpegProgress.eEwoBk'.
+Reading option '-r' ... matched as option 'r' (set frame rate (Hz value, fraction or abbreviation)) with argument '12'.
+Reading option '-start_number' ... matched as AVOption 'start_number' with argument '0'.
+Reading option '-i' ... matched as input url with argument 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame%04d.png'.
+Reading option '-i' ... matched as input url with argument 'D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png'.
+Reading option '-lavfi' ... matched as option 'lavfi' (create a complex filtergraph) with argument '[0:v][1:v] paletteuse'.
+Reading option '-y' ... matched as option 'y' (overwrite output files) with argument '1'.
+Reading option 'D:/FH/4 Semester/GDP/Mushroom/Animations/FirstTest.gif' ... matched as output url.
+Finished splitting the commandline.
+Parsing a group of options: global .
+Applying option v (set logging level) with argument debug.
+Applying option nostdin (enable or disable interaction on standard input) with argument 0.
+Applying option progress (write program-readable progress information) with argument C:/Users/Sarah/AppData/Local/Temp/KritaFFmpegProgress.eEwoBk.
+[file @ 000001e0d1bbab40] Setting default whitelist 'file,crypto'
+Applying option lavfi (create a complex filtergraph) with argument [0:v][1:v] paletteuse.
+Applying option y (overwrite output files) with argument 1.
+Successfully parsed a group of options.
+Parsing a group of options: input url D:/FH/4 Semester/GDP/Mushroom/Animations/frame%04d.png.
+Applying option r (set frame rate (Hz value, fraction or abbreviation)) with argument 12.
+Successfully parsed a group of options.
+Opening an input file: D:/FH/4 Semester/GDP/Mushroom/Animations/frame%04d.png.
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0000.png' for reading
+[file @ 000001e0d1bfef40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c07100] Statistics: 124580 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0001.png' for reading
+[file @ 000001e0d1c25ac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 124580 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0002.png' for reading
+[file @ 000001e0d1c05f80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 124580 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0003.png' for reading
+[file @ 000001e0d1c061c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 116092 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0004.png' for reading
+[file @ 000001e0d1c061c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 116092 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0005.png' for reading
+[file @ 000001e0d1c06500] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 102020 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0006.png' for reading
+[file @ 000001e0d1c06700] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 102020 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0007.png' for reading
+[file @ 000001e0d1c068c0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119472 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0008.png' for reading
+[file @ 000001e0d1c06ac0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 152784 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0009.png' for reading
+[file @ 000001e0d1c06c80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 168585 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0010.png' for reading
+[file @ 000001e0d1c06e80] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132348 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0011.png' for reading
+[file @ 000001e0d1c06f40] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 107445 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0012.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 111025 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0013.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 122722 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0014.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 120548 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0015.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119330 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0016.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132348 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0017.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 107445 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0018.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 111025 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0019.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 122722 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0020.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 120548 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0021.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119330 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0022.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132348 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0023.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 107445 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0024.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 111025 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0025.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 122722 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0026.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 120548 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0027.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119330 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0028.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132348 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0029.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 107445 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0030.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 111025 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0031.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 122722 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0032.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 120548 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0033.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119330 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0034.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132348 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0035.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 107445 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0036.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 111025 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0037.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 122722 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0038.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 120548 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0039.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 119330 bytes read, 0 seeks
+[image2 @ 000001e0d1bfb800] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame0040.png' for reading
+[file @ 000001e0d1c06fc0] Setting default whitelist 'file,crypto'
+[AVIOContext @ 000001e0d1c2fdc0] Statistics: 132707 bytes read, 0 seeks
+Input #0, image2, from 'D:/FH/4 Semester/GDP/Mushroom/Animations/frame%04d.png':
+  Duration: 00:00:01.64, start: 0.000000, bitrate: N/A
+    Stream #0:0, 41, 1/25: Video: png, 1 reference frame, rgba(pc), 1200x1050 [SAR 7874:7874 DAR 8:7], 0/1, 25 fps, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: input url D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png.
+Successfully parsed a group of options.
+Opening an input file: D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png.
+[NULL @ 000001e0d1c27700] Opening 'D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png' for reading
+[file @ 000001e0d1c27dc0] Setting default whitelist 'file,crypto'
+[png_pipe @ 000001e0d1c27700] Format png_pipe probed with size=2048 and score=99
+[png_pipe @ 000001e0d1c27700] Before avformat_find_stream_info() pos: 0 bytes read:802 seeks:0 nb_streams:1
+[png_pipe @ 000001e0d1c27700] After avformat_find_stream_info() pos: 802 bytes read:802 seeks:0 frames:1
+Input #1, png_pipe, from 'D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png':
+  Duration: N/A, bitrate: N/A
+    Stream #1:0, 1, 1/25: Video: png, 1 reference frame, rgba(pc), 16x16 [SAR 1:1 DAR 1:1], 0/1, 25 tbr, 25 tbn, 25 tbc
+Successfully opened the file.
+Parsing a group of options: output url D:/FH/4 Semester/GDP/Mushroom/Animations/FirstTest.gif.
+Successfully parsed a group of options.
+Opening an output file: D:/FH/4 Semester/GDP/Mushroom/Animations/FirstTest.gif.
+[file @ 000001e0d1c2cc40] Setting default whitelist 'file,crypto'
+Successfully opened the file.
+detected 12 logical cores
+Stream mapping:
+  Stream #0:0 (png) -> paletteuse:default
+  Stream #1:0 (png) -> paletteuse:palette
+  paletteuse -> Stream #0:0 (gif)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+[image2 @ 000001e0d1bfb800] Thread message queue blocking; consider raising the thread_queue_size option (current value: 8)
+cur_dts is invalid st:0 (0) [init:0 i_done:0 finish:0] (this is harmless if it occurs once at the start per stream)
+    Last message repeated 13 times
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'video_size' to value '1200x1050'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'time_base' to value '1/12'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'pixel_aspect' to value '7874/7874'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] Setting 'frame_rate' to value '12/1'
+[graph 0 input from stream 0:0 @ 000001e0d1c06140] w:1200 h:1050 pixfmt:rgba tb:1/12 fr:12/1 sar:7874/7874 sws_param:flags=2
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'video_size' to value '16x16'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'pix_fmt' to value '26'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'time_base' to value '1/25'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'pixel_aspect' to value '1/1'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'sws_param' to value 'flags=2'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] Setting 'frame_rate' to value '25/1'
+[graph 0 input from stream 1:0 @ 000001e0d29596c0] w:16 h:16 pixfmt:rgba tb:1/25 fr:25/1 sar:1/1 sws_param:flags=2
+[format @ 000001e0d2979140] Setting 'pix_fmts' to value 'rgb8|bgr8|rgb4_byte|bgr4_byte|gray|pal8'
+[auto_scaler_0 @ 000001e0d2954cc0] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001e0d1c06680] auto-inserting filter 'auto_scaler_0' between the filter 'graph 0 input from stream 0:0' and the filter 'Parsed_paletteuse_0'
+[auto_scaler_1 @ 000001e0d29abd80] w:iw h:ih flags:'bilinear' interl:0
+[Parsed_paletteuse_0 @ 000001e0d1c06680] auto-inserting filter 'auto_scaler_1' between the filter 'graph 0 input from stream 1:0' and the filter 'Parsed_paletteuse_0'
+[AVFilterGraph @ 000001e0d1c8b140] query_formats: 5 queried, 2 merged, 2 already done, 0 delayed
+[swscaler @ 000001e0d2a1e840] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_0 @ 000001e0d2954cc0] w:1200 h:1050 fmt:rgba sar:7874/7874 -> w:1200 h:1050 fmt:bgra sar:1/1 flags:0x2
+[swscaler @ 000001e0d2a2b7c0] Forcing full internal H chroma due to input having non subsampled chroma
+[auto_scaler_1 @ 000001e0d29abd80] w:16 h:16 fmt:rgba sar:1/1 -> w:16 h:16 fmt:bgra sar:1/1 flags:0x2
+[Parsed_paletteuse_0 @ 000001e0d1c06680] [framesync @ 000001e0d6a000c8] Selected 1/300 time base
+[Parsed_paletteuse_0 @ 000001e0d1c06680] [framesync @ 000001e0d6a000c8] Sync level 2
+Output #0, gif, to 'D:/FH/4 Semester/GDP/Mushroom/Animations/FirstTest.gif':
+  Metadata:
+    encoder         : Lavf58.33.100
+    Stream #0:0, 0, 1/100: Video: gif, 1 reference frame, pal8, 1200x1050 [SAR 1:1 DAR 8:7], 0/1, q=2-31, 200 kb/s, 12 fps, 100 tbn, 12 tbc (default)
+    Metadata:
+      encoder         : Lavc58.58.101 gif
+Clipping frame in rate conversion by 0.000008
+[gif @ 000001e0d1c2bf40] 1x1 image at pos (1199;1049) [area:1200x1050]
+    Last message repeated 1 times
+[gif @ 000001e0d1c2bf40] 546x931 image at pos (72;63) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 1x1 image at pos (1199;1049) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 208x905 image at pos (405;79) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 1x1 image at pos (1199;1049) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 193x902 image at pos (405;86) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 318x890 image at pos (426;98) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 494x846 image at pos (438;204) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 492x841 image at pos (440;209) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 416x717 image at pos (468;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 375x708 image at pos (509;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 408x658 image at pos (466;349) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 385x636 image at pos (466;371) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 325x668 image at pos (512;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 374x673 image at pos (468;338) [area:1200x1050]
+frame=   17 fps=0.0 q=-0.0 size=     512kB time=00:00:01.34 bitrate=3130.1kbits/s speed=2.53x    [gif @ 000001e0d1c2bf40] 416x717 image at pos (468;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 375x708 image at pos (509;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 408x658 image at pos (466;349) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 385x636 image at pos (466;371) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 325x668 image at pos (512;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 374x673 image at pos (468;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 416x717 image at pos (468;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 375x708 image at pos (509;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 408x658 image at pos (466;349) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 385x636 image at pos (466;371) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 325x668 image at pos (512;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 374x673 image at pos (468;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 416x717 image at pos (468;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 375x708 image at pos (509;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 408x658 image at pos (466;349) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 385x636 image at pos (466;371) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 325x668 image at pos (512;338) [area:1200x1050]
+frame=   34 fps= 33 q=-0.0 size=    1536kB time=00:00:02.76 bitrate=4559.0kbits/s speed=2.66x    [gif @ 000001e0d1c2bf40] 374x673 image at pos (468;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 416x717 image at pos (468;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 375x708 image at pos (509;294) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 408x658 image at pos (466;349) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 385x636 image at pos (466;371) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 325x668 image at pos (512;338) [area:1200x1050]
+[gif @ 000001e0d1c2bf40] 374x710 image at pos (468;285) [area:1200x1050]
+[Parsed_paletteuse_0 @ 000001e0d1c06680] [framesync @ 000001e0d6a000c8] Sync level 0
+[out_0_0 @ 000001e0d2954b00] EOF on sink link out_0_0:default.
+No more output streams to write to, finishing.
+frame=   41 fps= 32 q=-0.0 Lsize=    1989kB time=00:00:03.34 bitrate=4879.0kbits/s speed=2.61x    
+[AVIOContext @ 000001e0d1bfb640] Statistics: 0 seeks, 3 writeouts
+video:1989kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.000982%
+Input file #0 (D:/FH/4 Semester/GDP/Mushroom/Animations/frame%04d.png):
+  Input stream #0:0 (video): 41 packets read (4950602 bytes); 41 frames decoded; 
+  Total: 41 packets (4950602 bytes) demuxed
+Input file #1 (D:/FH/4 Semester/GDP/Mushroom/Animations/palette.png):
+  Input stream #1:0 (video): 1 packets read (802 bytes); 1 frames decoded; 
+  Total: 1 packets (802 bytes) demuxed
+Output file #0 (D:/FH/4 Semester/GDP/Mushroom/Animations/FirstTest.gif):
+  Output stream #0:0 (video): 41 frames encoded; 41 packets muxed (2036946 bytes); 
+  Total: 41 packets (2036946 bytes) muxed
+42 frames successfully decoded, 0 decoding errors
+[AVIOContext @ 000001e0d1c2cd00] Statistics: 0 seeks, 8 writeouts
+[AVIOContext @ 000001e0d1bfd480] Statistics: 802 bytes read, 0 seeks
